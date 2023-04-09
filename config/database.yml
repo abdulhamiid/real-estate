@@ -89,4 +89,3 @@ production:
   database: devise_test_production
   username: devise_test
   password: <%= ENV["DEVISE_TEST_DATABASE_PASSWORD"] %>
-  host: localhost
