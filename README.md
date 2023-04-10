@@ -57,7 +57,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Connect Realtors and Buyers]**
-- **[Rent/Lease an Appartment or]**
+- **[Buy, Rent or Lease an Appartment]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
