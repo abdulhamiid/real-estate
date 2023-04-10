@@ -11,9 +11,7 @@
   </head>
 
   <body>
-  <%= render "devise/shared/flash" %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%= render "devise/shared/flash" %>
     <%= yield %>
     <% if user_signed_in? %>
       <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
