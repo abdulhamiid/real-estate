@@ -1,0 +1,8 @@
+<% if resource.errors.any? %>
+  <div id="error_explanation" data-turbo-cache="false">
+    <div class="alert alert-dismissible fade show alert-warning" role="alert">
+      <%= resource.errors.full_messages.first %>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
+<% end %>
